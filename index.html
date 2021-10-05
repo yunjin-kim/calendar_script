@@ -4,13 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='./reset.css' rel='stylesheet' />
   <link href='./main.css' rel='stylesheet' />
-  <script src='./main.js'></script>
   <title>Document</title>
 </head>
 <body>
-  <div class="calendarWrap"> 
+  <div class="mainpage__calendar">
+    <div class="mainpage__calendar__slide">
+        <!-- <img src="../img/next4.png" alt="" class="left"> -->
+        <button class="calendar__left">왼</button>
+          <div class="thisYearMonth"></div>
+          <button class="calendar__right">오</button>
+        <!-- <img src="../img/next3.png" alt="" class="right"> -->
+    </div>
+    <div class="mainpage__calendar__main">
+        <ul class="mainpage__calendar__week">
+            <li>일</li>
+            <li>월</li>
+            <li>화</li>
+            <li>수</li>
+            <li>목</li>
+            <li>금</li>
+            <li>토</li>
+        </ul>
+        <ul class="mainpage__calendar__day">
 
-  </div>
+        </ul>
+
+    </div>
+</div>
 </body>
+<script src='./main.js'></script>
 </html>
